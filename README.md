@@ -1,31 +1,53 @@
-# Book Finder
+📚 Book Finder
 
-React + Tailwind app using Open Library Search API to search books by title, view results, and open details.
+A simple React-based web app that lets users search for books using the Open Library API.
+Built using React and plain CSS for clean, responsive design — no external UI frameworks.
 
-## Demo
-(put your CodeSandbox/StackBlitz link here)
+🚀 Features
 
-## ChatGPT Work
-(put your chatGPT conversation link here — Level 1)
+🔍 Search for books by title (real-time with debounce)
 
-## Run locally
-1. `npm install`
-2. `npm run dev`
-3. Open `http://localhost:5173`
+📘 View book cover, author, and publish year
 
-## Features
-- Search with debounce
-- Results list with cover images
-- Load more / pagination
-- Book detail modal
-- Responsive + accessible design
+💬 Click a book to open detailed modal view
 
-## Tech
-- React (Vite)
-- Tailwind CSS
-- Open Library Search API
+❌ Handles missing covers gracefully (shows placeholder)
 
-## Future improvements
-- Save favorites to localStorage
-- Filters (author, year)
-- Sort by relevance/publish date
+⚠️ Displays error message if no books are found or API fails
+
+📱 Fully responsive layout built with CSS Grid & Flexbox
+
+🛠️ Tech Stack
+
+Frontend: React (Vite)
+
+Styling: Plain CSS
+
+API: Open Library Books API
+
+Hosting: CodeSandbox (or StackBlitz)
+
+
+
+⚙️ Setup Instructions
+1. Clone the repository
+git clone https://github.com/SNP244/book-finder.git
+cd book-finder
+
+2. Install dependencies
+npm install
+
+3. Run the app locally
+npm run dev
+
+
+Then open the local server link shown in the terminal.
+
+🌐 Live Demo
+
+🔗 CodeSandbox Link: [https://j6t7ts-5173.csb.app/]
+
+👩‍💻 Author
+
+Shreya Patil
+ [https://github.com/SNP244/book-finder.git]
